@@ -1,6 +1,6 @@
 ## Reveal Playground for SCS
 
-This repo holds a playground for providing slides made with revealjs for SCS.
+This repo holds a playground for providing slides made with [revealjs](https://revealjs.com/) for SCS.
 
 ### Howto
 
