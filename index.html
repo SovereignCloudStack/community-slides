@@ -9,7 +9,6 @@
 		<link rel="stylesheet" href="dist/reset.css">
 		<link rel="stylesheet" href="dist/reveal.css">
 		<link rel="stylesheet" href="dist/theme/white.css">
-		<link rel="stylesheet" href="css/bootstrap/bootstrap.min.css">
 
 		<!-- Theme used for syntax highlighted code -->
 		<link rel="stylesheet" href="plugin/highlight/monokai.css">
@@ -17,18 +16,7 @@
 	<body>
 		<div class="reveal">
 			<div class="slides">
-				<section data-markdown="title.md"
-						 data-separator="^\n\n\n"
-						 data-separator-vertical="^\n\n"
-						 data-separator-notes="^Note:"
-						 data-charset="iso-8859-15"
-						 data-background-image="images/background.jpg">
-					<!--
-						Note that Windows uses `\r\n` instead of `\n` as its linefeed character.
-						For a regex that supports all operating systems, use `\r?\n` instead of `\n`.
-					-->
-				</section>
-				<section data-markdown="slides.md"
+			<section data-markdown="slides.md"
 						 data-separator="^\n\n\n"
 						 data-separator-vertical="^\n\n"
 						 data-separator-notes="^Note:"
@@ -45,7 +33,6 @@
 		<script src="plugin/notes/notes.js"></script>
 		<script src="plugin/markdown/markdown.js"></script>
 		<script src="plugin/highlight/highlight.js"></script>
-		<script src="js/bootstrap/bootstrap.min.js"></script>
 		<script>
 			// More info about initialization & config:
 			// - https://revealjs.com/initialization/
@@ -57,12 +44,56 @@
 				plugins: [ RevealMarkdown, RevealHighlight, RevealNotes ]
 			});
 		</script>
-		<nav class="navbar-expand fixed-top bg-white">
-			<div class="d-flex w-100 flex-first justify-content-between">
-				<img src="images/scs-logo.png" style="max-height:100px" />
-				<img src="images/bmwk-logo.png" style="max-height:150px" />
-				<img src="images/gaia-x-logo.png" style="max-height:100px" />
-			</div>
-		</nav>
-	</body>
+		<style type="text/css">
+		/* 1. Style header/footer <div> so they are positioned as desired. */
+		#header-left {
+			position: absolute;
+			top: 0%;
+			left: 0%;
+		}
+		#header-right {
+			position: absolute;
+			top: 0%;
+			right: 0%;
+		}
+		#footer-left {
+			position: absolute;
+			bottom: 0%;
+			left: 0%;
+		}
+		#footer-right {
+			position: absolute;
+			bottom: 0%;
+			right: 0%;
+		}
+		</style>
+
+<!-- 2. Create hidden header/footer <div> -->
+<div id="hidden" style="display:none;">
+    <div id="header">
+        <div id="header-left" style="z-index: 1;"><img src="images/scs-community-logo.png" width="30%"></div>
+        <div id="header-right" style="z-index: 1;"><img src="images/gaia-x-logo.png" height="100px"></div>
+        <div id="footer-left" style="z-index: 1;"><img src="images/scs-logo.png" width="20%"></div>
+        <div id="footer-right" style="z-index: 1;"><img src="images/bmwk-logo.png" height="200px"></div>
+    </div>
+</div>
+
+<script src="https://code.jquery.com/jquery-2.2.4.min.js"></script>
+<script type="text/javascript">
+    // 3. On Reveal.js ready event, copy header/footer <div> into each `.slide-background` <div>
+    var header = $('#header').html();
+    if ( window.location.search.match( /print-pdf/gi ) ) {
+        Reveal.addEventListener( 'ready', function( event ) {
+            $('.slide-background').append(header);
+        });
+    }
+    else {
+        $('div.reveal').append(header);
+   }
+   Reveal.on( 'slidechanged', event => {
+   		$('div.reveal').remove(header);
+  // event.previousSlide, event.currentSlide, event.indexh, event.indexv
+} );
+</script>
+</body>
 </html>
