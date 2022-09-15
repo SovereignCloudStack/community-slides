@@ -36,11 +36,11 @@ Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Tra
 
 ## Die Ziele
 
-* Standardizierung
-* Zertifizierbarkeit
-* Transparenz
-* Nachhaltigkeit
-* Föderierung
+* Standardizierung <!-- .element: class="fragment" -->
+* Zertifizierbarkeit <!-- .element: class="fragment" -->
+* Transparenz <!-- .element: class="fragment" -->
+* Nachhaltigkeit <!-- .element: class="fragment" -->
+* Föderierung <!-- .element: class="fragment" -->
 
 
 ## Wer?
@@ -50,9 +50,11 @@ Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Tra
 
 ![OSB Alliance](images/osba-logo-claim.svg)
 
-![BMWK](images/bmwk-logo.png)
+![BMWK](images/bmwk-logo.png) <!-- .element: class="fragment" -->
 
 
 # Digitale Souveränität
 
 
+
+#
