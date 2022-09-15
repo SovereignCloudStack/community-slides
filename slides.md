@@ -48,9 +48,9 @@ Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Tra
 
 ## 
 
-![OSB Alliance](images/osba-logo-claim.svg)
+![OSB Alliance](images/logos/osba-logo-claim.svg)
 
-![BMWK](images/bmwk-logo.png) <!-- .element: class="fragment" -->
+![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment" -->
 
 
 # Digitale Souveränität
