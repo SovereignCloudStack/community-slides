@@ -58,3 +58,15 @@ Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Tra
 
 
 #
+
+![scs vs gaia-x](images/scs-vs-gaiax.png)
+
+
+#
+
+![scs architektur](images/201001-SCS-4c.png)
+
+
+#
+
+![scs acatech](images/Ecosys-SCS-Acatech.png)
