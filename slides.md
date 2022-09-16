@@ -126,9 +126,7 @@ Digitale Souveränität
 ![scs ecosystem](images/scs-ecosystem.png)
 
 
-#
-
-<!-- .slide:  -->
+### OpenStack == OpenStack?
 
 ``` python
 def get_server_external_ipv4(cloud, server):
