@@ -101,6 +101,11 @@ Digitale Souveränität
 
 #
 
+![scs architekture bottom up](images/scs-architecture-bottom-up.jpg)
+
+
+#
+
 ![scs architektur](images/201001-SCS-4c.png)
 
 
