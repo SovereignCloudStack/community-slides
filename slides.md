@@ -81,3 +81,14 @@ Digitale Souveränität
 #
 
 ![scs acatech](images/Ecosys-SCS-Acatech.png)
+
+
+## 
+
+![betacloud](images/logos/betacloud-logo.png) <!-- .element height="50%" width="30%" -->
+
+![pco](images/logos/pco-logo.svg) <!-- .element height="50%" width="30%" -->
+
+![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="50%" width="30%" -->
+
+
