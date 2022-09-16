@@ -14,7 +14,7 @@ Note: special note for myself
 
 ##
 
-![ecos](images/ecos.jpg)
+![ecos](images/ecos.jpg) <!-- .element height="50%" width="70%" -->
 
 
 ##
@@ -66,6 +66,11 @@ Digitale Souveränität
 * Föderierung <!-- .element: class="fragment" -->
 
 
+#
+
+![three pillars](images/three-pillars.png) <!-- .element: class="r-frame" -->
+
+
 ## Wer?
 
 
@@ -73,12 +78,25 @@ Digitale Souveränität
 
 ![OSB Alliance](images/logos/osba-logo-claim.svg)
 
-![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment" -->
+![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment".element height="50%" width="30%" -->
+
+
+# GAIA-X und SCS?
 
 
 # 
 
 ![scs vs gaia-x](images/scs-vs-gaiax.png)
+
+
+# 
+
+![scs vs gaia-x](images/scs-vs-gaiax-outline-scs.png)
+
+
+#
+
+![scs and upstream](images/scs-and-upstream.jpg)
 
 
 #
@@ -93,18 +111,34 @@ Digitale Souveränität
 
 ## 
 
-![betacloud](images/logos/betacloud-logo.png) <!-- .element height="50%" width="30%" -->
+![betacloud](images/logos/betacloud-logo.png) <!-- .element height="30%" width="30%" --> ![pco](images/logos/pco-logo.svg) <!-- .element height="30%" width="30%" -->
 
-![pco](images/logos/pco-logo.svg) <!-- .element height="50%" width="30%" -->
-
-![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="50%" width="30%" -->
-
-
-#
-
-![three pillars](images/three-pillars.png)
+![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="30%" width="30%" -->
 
 
 #
 
 ![scs ecosystem](images/scs-ecosystem.png)
+
+
+#
+
+<!-- .slide:  -->
+
+``` python
+def get_server_external_ipv4(cloud, server):
+    """Find an externally routable IP for the server.
+
+    There are 5 different scenarios we have to account for:
+
+    * Cloud has externally routable IP from neutron but neutron APIs don't
+      work (only info available is in nova server record) (rackspace)
+    * Cloud has externally routable IP from neutron (runabove, ovh)
+    * Cloud has externally routable IP from neutron AND supports optional
+      private tenant networks (vexxhost, unitedstack)
+    * Cloud only has private tenant network provided by neutron and requires
+      floating-ip for external routing (dreamhost, hp)
+    * Cloud only has private tenant network provided by nova-network and
+      requires floating-ip for external routing (auro)
+```
+
