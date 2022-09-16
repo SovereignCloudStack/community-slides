@@ -59,7 +59,7 @@ Digitale Souveränität
 
 ## Die Ziele
 
-* Standardizierung <!-- .element: class="fragment" -->
+* Standardisierung <!-- .element: class="fragment" -->
 * Zertifizierbarkeit <!-- .element: class="fragment" -->
 * Transparenz <!-- .element: class="fragment" -->
 * Nachhaltigkeit <!-- .element: class="fragment" -->
