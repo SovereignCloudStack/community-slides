@@ -66,19 +66,71 @@ Digitale Souveränität
 * Föderierung <!-- .element: class="fragment" -->
 
 
+## Wer?
+
+
+##
+
+![sprin-d](images/logos/sprind-logo.png) <!-- .element: width="20%" -->
+
+![OSB Alliance](images/logos/osba-logo-claim.svg) <!-- .element: class="fragment" width="20%" -->
+
+![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment" width="20%" -->
+
+
 #
 
 ![three pillars](images/three-pillars.png) <!-- .element: class="r-frame" -->
 
 
-## Wer?
+#
+
+![scs architekture bottom up](images/scs-architecture-bottom-up.jpg)
 
 
-## 
+#
 
-![OSB Alliance](images/logos/osba-logo-claim.svg)
+![scs architektur](images/201001-SCS-4c.png)
 
-![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment".element height="50%" width="30%" -->
+
+# Optional Standards?!?
+
+
+### OpenStack == OpenStack?
+
+`openstacksdk/src/openstack/cloud/meta.py`
+
+![openstack sdk cases](images/openstack-sdk-cases.png) <!-- .element: width="80%" -->
+
+
+#
+
+![scs and upstream](images/scs-and-upstream.jpg)
+
+
+# OSISM
+
+
+* auf OSISM eingehen
+
+
+# Wo stehen wir
+
+* R0
+* R1
+* R2
+* R3
+
+
+# Wie funktioniert das Projekt?
+
+
+#
+![scs ecosystem](images/scs-ecosystem.png)
+
+
+#
+![scs calendar](images/scs-calendar.png) <!-- .element: width="80%" -->
 
 
 # GAIA-X und SCS?
@@ -96,21 +148,6 @@ Digitale Souveränität
 
 #
 
-![scs and upstream](images/scs-and-upstream.jpg)
-
-
-#
-
-![scs architekture bottom up](images/scs-architecture-bottom-up.jpg)
-
-
-#
-
-![scs architektur](images/201001-SCS-4c.png)
-
-
-#
-
 ![scs acatech](images/Ecosys-SCS-Acatech.png)
 
 
@@ -121,29 +158,8 @@ Digitale Souveränität
 ![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="30%" width="30%" -->
 
 
-#
+## Open Operations?
 
-![scs ecosystem](images/scs-ecosystem.png)
-
-
-### OpenStack == OpenStack?
-
-``` python
-def get_server_external_ipv4(cloud, server):
-    """Find an externally routable IP for the server.
-
-    There are 5 different scenarios we have to account for:
-
-    * Cloud has externally routable IP from neutron but neutron APIs don't
-      work (only info available is in nova server record) (rackspace)
-    * Cloud has externally routable IP from neutron (runabove, ovh)
-    * Cloud has externally routable IP from neutron AND supports optional
-      private tenant networks (vexxhost, unitedstack)
-    * Cloud only has private tenant network provided by neutron and requires
-      floating-ip for external routing (dreamhost, hp)
-    * Cloud only has private tenant network provided by nova-network and
-      requires floating-ip for external routing (auro)
-```
 
 
 ### Open Source Business Alliance e.V.
