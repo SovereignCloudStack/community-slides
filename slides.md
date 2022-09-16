@@ -34,6 +34,21 @@ Sovereign Cloud Stack (SCS) ist eine offene, föderierbare und modulare Cloud- u
 Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Transparenz und Unabhängigkeit von Ansprüchen Dritter und damit von wirtschaftlicher oder politischer Einflussnahme.
 
 
+## 
+
+Digitale Souveränität
+
+
+#### SCS - mehr als nur Datensouveränität 
+
+![Digisov 1](images/digisov-1.png)
+
+
+#### SCS - mehr als nur Datensouveränität 
+
+![Digisov 2](images/digisov-2.png)
+
+
 ## Die Ziele
 
 * Standardizierung <!-- .element: class="fragment" -->
@@ -53,11 +68,7 @@ Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Tra
 ![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment" -->
 
 
-# Digitale Souveränität
-
-
-
-#
+# 
 
 ![scs vs gaia-x](images/scs-vs-gaiax.png)
 
