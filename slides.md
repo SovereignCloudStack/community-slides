@@ -1,12 +1,20 @@
-## Sovereign Cloud Stack
+## Sovereign <!-- .element: style="color:#50c3a5" -->
+## Cloud Stack <!-- .element: style="color:#0f5fe1" -->
 
-Collaboration over Competition
+### Collaboration over Competition <!-- .element: style="color:#50c3a5" -->
 
-Felix Kronlage-Dammers <fkr@osb-alliance.com>
+Felix Kronlage-Dammers
+
+\<fkr@osb-alliance.com\> <!-- .element: style="color:#50c3a5" -->
 
 Note: special note for myself
 
 <!-- .slide: data-background-image="images/background.jpg" -->
+
+
+##
+
+![ecos](images/ecos.jpg)
 
 
 ##
@@ -92,3 +100,11 @@ Digitale Souveränität
 ![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="50%" width="30%" -->
 
 
+#
+
+![three pillars](images/three-pillars.png)
+
+
+#
+
+![scs ecosystem](images/scs-ecosystem.png)
