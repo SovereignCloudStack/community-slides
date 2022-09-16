@@ -145,3 +145,9 @@ def get_server_external_ipv4(cloud, server):
       requires floating-ip for external routing (auro)
 ```
 
+
+### Open Source Business Alliance e.V.
+
+* Bundesverband digitale Souveränität
+* Wirtschaftsverband mit mehr als 190 Mitgliedsunternehmen
+* Interessensvertretung Open Source auf politischer Ebene
