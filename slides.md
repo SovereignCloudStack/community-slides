@@ -1,13 +1,12 @@
-## Sovereign <!-- .element: style="color:#50c3a5" -->
-## Cloud Stack <!-- .element: style="color:#0f5fe1" -->
+## Sovereign Cloud Stack
 
-### Collaboration over Competition <!-- .element: style="color:#50c3a5" -->
+### Collaboration over Competition
 
 Felix Kronlage-Dammers
 
-\<fkr@osb-alliance.com\> <!-- .element: style="color:#50c3a5" -->
+\<fkr@osb-alliance.com\> <!-- .element: style="color:black" -->
 
-Note: special note for myself
+Note:
 
 <!-- .slide: data-background-image="images/background.jpg" -->
 
@@ -15,6 +14,8 @@ Note: special note for myself
 ##
 
 ![ecos](images/ecos.jpg) <!-- .element height="50%" width="70%" -->
+
+Note:
 
 
 ##
@@ -27,6 +28,7 @@ Job: PO IaaS & Ops @ SCS      Where: OSB Alliance e.V.
 E-Mail: fkr@osb-alliance.com  Twitter: @felixkronlage
 ```
 
+Note:
 
 ## Die Vision
 
@@ -35,16 +37,26 @@ E-Mail: fkr@osb-alliance.com  Twitter: @felixkronlage
 
 Sovereign Cloud Stack (SCS) ist eine offene, föderierbare und modulare Cloud- und Containerplattform auf Basis von Open-Source-Software.
 
+Note:
+* Hyperscaler dominieren den Markt
+
 
 ## Die Aufgabe
 
 
 Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Transparenz und Unabhängigkeit von Ansprüchen Dritter und damit von wirtschaftlicher oder politischer Einflussnahme.
 
+Note:
+* Abhängigkeiten (ökonomischer, strategischer oder juristischer Natur) → Digitalisierungshemmnis
+* Zentrale Kontrolle über die Plattform und den verarbeiteten Daten
+* Kontrolle und Wertschöpfung findet außerhalb Europas statt
+
 
 ## 
 
 Digitale Souveränität
+
+Note:
 
 
 #### SCS - mehr als nur Datensouveränität 
@@ -77,6 +89,11 @@ Digitale Souveränität
 
 ![BMWK](images/logos/bmwk-logo.png) <!-- .element: class="fragment" width="20%" -->
 
+Note:
+* Bundesverband digitale Souveränität
+* Wirtschaftsverband mit mehr als 190 Mitgliedsunternehmen
+* Interessensvertretung Open Source auf politischer Ebene
+
 
 #
 
@@ -93,7 +110,10 @@ Digitale Souveränität
 ![scs architektur](images/201001-SCS-4c.png)
 
 
-# Optional Standards?!?
+## Container Layer
+
+
+## Optional Standards?!?
 
 
 ### OpenStack == OpenStack?
@@ -111,18 +131,28 @@ Digitale Souveränität
 # OSISM
 
 
-* auf OSISM eingehen
+# 
+
+![osism architecture](images/osism-architecture.png)
 
 
-# Wo stehen wir
+## Wo stehen wir
 
-* R0
-* R1
-* R2
-* R3
+* stetig wachsende Community
+* halbjährliche Releases
+* R0 - R2 
 
 
-# Wie funktioniert das Projekt?
+## Release 3
+
+* OpenStack Yoga
+* Ceph Pacific / Quincy
+* Support Kubernetes 1.24 / Cluster API 1.1.x
+* User Federation
+* LUKS und NBDE
+
+
+## Wie funktioniert das Projekt?
 
 
 #
@@ -131,6 +161,18 @@ Digitale Souveränität
 
 #
 ![scs calendar](images/scs-calendar.png) <!-- .element: width="80%" -->
+
+Note:
+
+Teams erklaeren
+SIGs erklaeren
+
+
+## Mitmachen
+
+* https://scs.community
+* https://github.com/sovereigncloudstack
+* https://matrix.to/#/#scs-general:matrix.org
 
 
 # GAIA-X und SCS?
@@ -151,6 +193,9 @@ Digitale Souveränität
 ![scs acatech](images/Ecosys-SCS-Acatech.png)
 
 
+## Adaption
+
+
 ## 
 
 ![betacloud](images/logos/betacloud-logo.png) <!-- .element height="30%" width="30%" --> ![pco](images/logos/pco-logo.svg) <!-- .element height="30%" width="30%" -->
@@ -164,6 +209,3 @@ Digitale Souveränität
 
 ### Open Source Business Alliance e.V.
 
-* Bundesverband digitale Souveränität
-* Wirtschaftsverband mit mehr als 190 Mitgliedsunternehmen
-* Interessensvertretung Open Source auf politischer Ebene
