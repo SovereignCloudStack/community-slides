@@ -35,7 +35,7 @@ Note:
 
 ## 
 
-Sovereign Cloud Stack (SCS) ist eine offene, föderierbare und modulare Cloud- und Containerplattform auf Basis von Open-Source-Software.
+> Sovereign Cloud Stack (SCS) ist eine offene, föderierbare und modulare Cloud- und Containerplattform auf Basis von Open-Source-Software.
 
 Note:
 * Hyperscaler dominieren den Markt
@@ -44,7 +44,7 @@ Note:
 ## Die Aufgabe
 
 
-Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Transparenz und Unabhängigkeit von Ansprüchen Dritter und damit von wirtschaftlicher oder politischer Einflussnahme.
+> Nur Open-Source garantiert digitale Souveränität durch Interoperabilität, Transparenz und Unabhängigkeit von Ansprüchen Dritter und damit von wirtschaftlicher oder politischer Einflussnahme.
 
 Note:
 * Abhängigkeiten (ökonomischer, strategischer oder juristischer Natur) → Digitalisierungshemmnis
@@ -105,15 +105,32 @@ Note:
 ![scs architekture bottom up](images/scs-architecture-bottom-up.jpg)
 
 
+#### Cross Provider Cluster Networking
+
+![cross provider cluster networking](images/cross-provider-cluster-networking.png)
+
+
 #
 
 ![scs architektur](images/201001-SCS-4c.png)
 
 
-## Container Layer
+### Container Layer
+
+Note:
+
+* Cluster API - warum Cluster API
+* Gardener?
+* Referenz: OSS Health Check
 
 
-## Optional Standards?!?
+### Optional Standards?!?
+
+* Flavor Naming
+    * SCS-2C:4:10n
+	* SCS-2L:4:10n
+	* ...
+* Images
 
 
 ### OpenStack == OpenStack?
@@ -123,7 +140,7 @@ Note:
 ![openstack sdk cases](images/openstack-sdk-cases.png) <!-- .element: width="80%" -->
 
 
-#
+#### Upstream first
 
 ![scs and upstream](images/scs-and-upstream.jpg)
 
@@ -140,11 +157,23 @@ Note:
 
 * stetig wachsende Community
 * halbjährliche Releases
-* R0 - R2 
+* R0 - R2
+* Deutsche Verwaltungscloud-Strategie
+
+
+## Adaption
+
+
+## 
+
+![betacloud](images/logos/betacloud-logo.png) <!-- .element height="30%" width="30%" --> ![pco](images/logos/pco-logo.svg) <!-- .element height="30%" width="30%" -->
+
+![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="30%" width="30%" -->
 
 
 ## Release 3
 
+* Release kommende Woche Mittwoch (21.09.22)
 * OpenStack Yoga
 * Ceph Pacific / Quincy
 * Support Kubernetes 1.24 / Cluster API 1.1.x
@@ -157,6 +186,13 @@ Note:
 
 #
 ![scs ecosystem](images/scs-ecosystem.png)
+
+Note:
+
+- Angestellte OSBA
+- Firmen Vergabepakete
+- Public Money, Public Code
+- Community -> Ueberleitung Zusammenarbeit
 
 
 #
@@ -174,6 +210,8 @@ SIGs erklaeren
 * https://github.com/sovereigncloudstack
 * https://matrix.to/#/#scs-general:matrix.org
 
+Note:
+
 
 # GAIA-X und SCS?
 
@@ -188,24 +226,38 @@ SIGs erklaeren
 ![scs vs gaia-x](images/scs-vs-gaiax-outline-scs.png)
 
 
-#
-
-![scs acatech](images/Ecosys-SCS-Acatech.png)
-
-
-## Adaption
-
-
-## 
-
-![betacloud](images/logos/betacloud-logo.png) <!-- .element height="30%" width="30%" --> ![pco](images/logos/pco-logo.svg) <!-- .element height="30%" width="30%" -->
-
-![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="30%" width="30%" -->
-
-
 ## Open Operations?
 
 
+##
 
-### Open Source Business Alliance e.V.
+> Durch das Weitergeben und Dokumentieren von bewährten Praktiken zum Betrieb solcher Cloudumgebungen wird die Schwierigkeit, Clouddienste mit hoher Qualität zu liefern deutlich reduziert.
+
+
+#
+
+![ecos](images/ecos.jpg) <!-- .element height="50%" width="70%" -->
+
+Note:
+
+- Drei Beispiele geben
+  * SIG Monitoring
+  * Hackathon PCO OTC
+  * Upgrade Session
+
+
+### OpenStack Health Monitor
+
+![health monitor](images/health-monitor.png)
+
+Note:
+
+
+### Danke für die 20. Ausgabe der Kielux!
+
+* https://scs.community
+* https://github.com/sovereigncloudstack
+* https://matrix.to/#/#scs-general:matrix.org
+
+Note:
 
