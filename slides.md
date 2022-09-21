@@ -63,6 +63,8 @@ Note:
 
 ![Digisov 1](images/digisov-1.png)
 
+Note:
+
 
 #### SCS - mehr als nur Datensouveränität 
 
@@ -76,6 +78,8 @@ Note:
 * Transparenz <!-- .element: class="fragment" -->
 * Nachhaltigkeit <!-- .element: class="fragment" -->
 * Föderierung <!-- .element: class="fragment" -->
+
+Note:
 
 
 ## Wer?
@@ -99,20 +103,28 @@ Note:
 
 ![three pillars](images/three-pillars.png) <!-- .element: class="r-frame" -->
 
+Note:
+
 
 #
 
 ![scs architekture bottom up](images/scs-architecture-bottom-up.jpg)
+
+Note:
 
 
 #### Cross Provider Cluster Networking
 
 ![cross provider cluster networking](images/cross-provider-cluster-networking.png)
 
+Note:
+
 
 #
 
 ![scs architektur](images/201001-SCS-4c.png)
+
+Note:
 
 
 ### Container Layer
@@ -123,6 +135,8 @@ Note:
 * Gardener?
 * Referenz: OSS Health Check
 
+Note:
+
 
 ### Optional Standards?!?
 
@@ -132,6 +146,8 @@ Note:
 	* ...
 * Images
 
+Note:
+
 
 ### OpenStack == OpenStack?
 
@@ -139,18 +155,26 @@ Note:
 
 ![openstack sdk cases](images/openstack-sdk-cases.png) <!-- .element: width="80%" -->
 
+Note:
+
 
 #### Upstream first
 
 ![scs and upstream](images/scs-and-upstream.jpg)
 
+Note:
+
 
 # OSISM
+
+Note:
 
 
 # 
 
 ![osism architecture](images/osism-architecture.png)
+
+Note:
 
 
 ## Wo stehen wir
@@ -160,8 +184,12 @@ Note:
 * R0 - R2
 * Deutsche Verwaltungscloud-Strategie
 
+Note:
+
 
 ## Adaption
+
+Note:
 
 
 ## 
@@ -169,6 +197,8 @@ Note:
 ![betacloud](images/logos/betacloud-logo.png) <!-- .element height="30%" width="30%" --> ![pco](images/logos/pco-logo.svg) <!-- .element height="30%" width="30%" -->
 
 ![wavecloud](images/logos/wavestack-logo.svg) <!-- .element height="30%" width="30%" -->
+
+Note:
 
 
 ## Release 3
@@ -180,8 +210,12 @@ Note:
 * User Federation
 * LUKS und NBDE
 
+Note:
+
 
 ## Wie funktioniert das Projekt?
+
+Note:
 
 
 #
@@ -215,23 +249,33 @@ Note:
 
 # GAIA-X und SCS?
 
+Note:
+
 
 # 
 
 ![scs vs gaia-x](images/scs-vs-gaiax.png)
+
+Note:
 
 
 # 
 
 ![scs vs gaia-x](images/scs-vs-gaiax-outline-scs.png)
 
+Note:
+
 
 ## Open Operations?
+
+Note:
 
 
 ##
 
 > Durch das Weitergeben und Dokumentieren von bewährten Praktiken zum Betrieb solcher Cloudumgebungen wird die Schwierigkeit, Clouddienste mit hoher Qualität zu liefern deutlich reduziert.
+
+Note:
 
 
 #
