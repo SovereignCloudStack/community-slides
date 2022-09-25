@@ -53,13 +53,13 @@ Note:
 
 ## 
 
-![Keycloak - Keystone](images/Keycloak-Keystone-diagram.png) 
+![Keycloak - Keystone](images/Keycloak-Keystone-diagram.png) <!-- .element height="60%" width="70%" -->
 
 Note:
 
 
 ## 
 
-![OpenStack v3oidcpassword sequence](images/openstack-v3oidcpassword.drawio.png)
+![OpenStack v3oidcpassword sequence](images/openstack-v3oidcpassword.drawio.png) <!-- .element height="60%" width="70%" -->
 
 Note:
