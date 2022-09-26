@@ -13,6 +13,13 @@ Note:
 
 ##
 
+![Three Pillars for Success](images/three-pillars-en.png)
+
+Note:
+
+
+##
+
 ![Ecosys - Acatec](images/Ecosys-SCS-Acatech.png)
 
 Note:
