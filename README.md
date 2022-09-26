@@ -18,3 +18,11 @@ template slideset that is personalized, name it `scs-<github-username>-template`
 
 For slidedecks use the following naming convention: `slides/<year>-eventname`.
 
+
+### Images
+
+A lot of standard scs images are in `images/`. If there are specific images for a certain
+slide set, those images should only be added to the branch of the corresponding slides.
+If images are suiteable for numerous scs-related slides, please add them to the `scs-template` branch
+as well.
+
