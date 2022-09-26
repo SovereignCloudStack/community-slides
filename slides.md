@@ -20,21 +20,14 @@ Note:
 
 ##
 
-![Ecosys - Acatec](images/Ecosys-SCS-Acatech.png)
-
-Note:
-
-
-##
-
-![SCS Architecture Bottom Up](images/scs-architecture-bottom-up.jpg)
-
-Note:
-
-
-##
-
 ![SCS Architecture Layers](images/201001-SCS-4c.png)
+
+Note:
+
+
+##
+
+![Ecosys - Acatec](images/Ecosys-SCS-Acatech.png)
 
 Note:
 
